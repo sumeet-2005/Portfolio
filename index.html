@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumeet D Biradar | DevOps Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="gradient-logo">S</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1 class="glitch-text">
+                    Sumeet D Biradar
+                </h1>
+                <h2 class="typed-text">Automating the World, <span class="highlight">One Pipeline at a Time</span></h2>
+                <p class="home-description">
+                    B.Tech Computer Science student specializing in DevOps at Presidency University, Bangalore.
+                    Passionate about Linux, automation, and building efficient CI/CD pipelines.
+                </p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn primary">Get In Touch</a>
+                    <a href="#projects" class="btn secondary">View Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/sumeet-2005" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sdb444" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:sumeetbiradar444@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate DevOps enthusiast currently pursuing my B.Tech in Computer Science with specialization in DevOps at Presidency University, Bangalore (2023-2027).</p>
+                    <p>My journey in DevOps is driven by a fascination with automation, infrastructure as code, and the magic of CI/CD pipelines. I believe in building systems that are scalable, reliable, and efficient.</p>
+                    <p>When I'm not diving into Linux terminals or learning new DevOps tools, you'll find me exploring cloud technologies and working on IoT projects.</p>
+                </div>
+                <div class="about-stats">
+                    <!-- DevOps Tools - WITH HOVER -->
+                    <div class="stat-item" id="tools-stat">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-text">DevOps Tools</div>
+                        <div class="stat-hover-content" id="tools-content">
+                            <span class="tool-tag">Linux</span>
+                            <span class="tool-tag">Git</span>
+                            <span class="tool-tag">Docker</span>
+                            <span class="tool-tag">Kubernetes</span>
+                            <span class="tool-tag">Jenkins</span>
+                            <span class="tool-tag">GitHub Actions</span>
+                            <span class="tool-tag">AWS</span>
+                            <span class="tool-tag">Terraform</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Graduation Year - WITH HOVER and SVG -->
+                    <div class="stat-item" id="year-stat">
+                        <div class="stat-number">2027</div>
+                        <div class="stat-text">Graduation Year</div>
+                        <div class="stat-hover-content" id="year-content">
+                            <div class="hover-header">
+                                <svg class="hover-svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="var(--accent-color)" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/>
+                                    <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
+                                </svg>
+                                <span class="hover-title">Education</span>
+                            </div>
+                            <p><strong>B.Tech CSE (DevOps)</strong></p>
+                            <p>Presidency University Bangalore</p>
+                            <p>Expected Graduation: 2027</p>
+                            <p>Current Semester: 4th</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Major Projects - WITH HOVER and SVG -->
+                    <div class="stat-item" id="projects-stat">
+                        <div class="stat-number">2</div>
+                        <div class="stat-text">Major Projects</div>
+                        <div class="stat-hover-content" id="projects-content">
+                            <div class="hover-header">
+                                <svg class="hover-svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="var(--accent-color)" stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                    <line x1="8" y1="21" x2="16" y2="21"/>
+                                    <line x1="12" y1="17" x2="12" y2="21"/>
+                                </svg>
+                                <span class="hover-title">Projects</span>
+                            </div>
+                            <p><strong>🔧 Predictive Maintenance</strong></p>
+                            <p>ML + Raspberry Pi for conveyor belts</p>
+                            <p><strong>📊 Excel Analytics Platform</strong></p>
+                            <p>Full-stack Java web application</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Predictive Maintenance -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <svg class="project-svg" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="var(--accent-color)" stroke-width="1.5">
+                            <rect x="4" y="8" width="16" height="12" rx="2" ry="2"></rect>
+                            <circle cx="9" cy="13" r="1.5" fill="var(--accent-color)"></circle>
+                            <circle cx="15" cy="13" r="1.5" fill="var(--accent-color)"></circle>
+                            <path d="M9 6 L9 2 L15 2 L15 6"></path>
+                            <line x1="4" y1="16" x2="20" y2="16"></line>
+                        </svg>
+                        <h3>Predictive Maintenance for Conveyor Belts</h3>
+                    </div>
+                    <p class="project-description">
+                        ML-powered system that prevents conveyor belt dislodgements and enhances production efficiency using Raspberry Pi and real-time monitoring.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Raspberry Pi</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Sensors</span>
+                    </div>
+                    <div class="project-highlight">
+                        <h4>Impact:</h4>
+                        <p>Reduces downtime, prevents equipment failure, optimizes production efficiency</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/sumeet-2005/predictive-maintenance-conveyor" target="_blank" class="project-link">
+                            <svg class="link-svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <span>View Code</span>
+                        </a>
+                        <a href="https://predictive-maintenance-conveyor.onrender.com" target="_blank" class="project-link">
+                            <svg class="link-svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                            </svg>
+                            <span>Live Demo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Excel Analytics Platform -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <svg class="project-svg" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="var(--accent-color)" stroke-width="1.5">
+                            <path d="M21 16V20H3V16"></path>
+                            <path d="M7 14L7 10"></path>
+                            <path d="M12 14L12 6"></path>
+                            <path d="M17 14L17 12"></path>
+                            <rect x="3" y="4" width="18" height="16" rx="2" ry="2"></rect>
+                        </svg>
+                        <h3>Excel Analytics Platform</h3>
+                    </div>
+                    <p class="project-description">
+                        Web application for advanced Excel data analytics, providing insights and visualizations for business intelligence.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Full Stack</span>
+                        <span class="tech-tag">Web App</span>
+                        <span class="tech-tag">Data Analytics</span>
+                        <span class="tech-tag">Excel Integration</span>
+                    </div>
+                    <div class="project-highlight">
+                        <h4>Features:</h4>
+                        <p>Data processing, visualization, real-time analytics, export capabilities</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/sumeet-2005/Excel-Analytics-Platform.git" target="_blank" class="project-link">
+                            <svg class="link-svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <span>View Code</span>
+                        </a>
+                        <a href="https://excel-analytics-frontend-x0l8.onrender.com/" target="_blank" class="project-link">
+                            <svg class="link-svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                            </svg>
+                            <span>Live Demo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="more-projects">
+                <p>More exciting projects coming soon! 🚀</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-linux skill-icon"></i>
+                    <h3>Linux</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p>Ubuntu, Command Line, Bash</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-github skill-icon"></i>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                    <p>Version Control, Collaboration</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-docker skill-icon"></i>
+                    <h3>Docker</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                    <p>Containers, Images, Dockerfiles</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cubes skill-icon"></i>
+                    <h3>Kubernetes</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                    <p>Pods, Services, Deployments</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java skill-icon"></i>
+                    <h3>Java</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                    <p>Core Java, OOP Concepts</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch skill-icon"></i>
+                    <h3>CI/CD</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 55%"></div>
+                    </div>
+                    <p>Jenkins, GitHub Actions</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud skill-icon"></i>
+                    <h3>Cloud</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 40%"></div>
+                    </div>
+                    <p>AWS Fundamentals</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                    <p>Basic Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - WITH WORKING FORMSPREE ID -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h3>Email</h3>
+                        <p>sumeetbiradar444@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h3>Location</h3>
+                        <p>Bangalore, India</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-graduation-cap contact-icon"></i>
+                        <h3>Education</h3>
+                        <p>Presidency University Bangalore</p>
+                        <p>B.Tech CSE (DevOps) 2023-2027</p>
+                    </div>
+                </div>
+                
+                <!-- Formspree Contact Form - CORRECT ID: meerywpd -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/meerywpd" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    
+                    <!-- Hidden field for email subject -->
+                    <input type="hidden" name="_subject" value="New message from Sumeet's Portfolio">
+                    
+                    <!-- Spam prevention (honeypot) -->
+                    <input type="text" name="_gotcha" style="display:none">
+                    
+                    <button type="submit" class="btn primary" id="submitBtn">Send Message</button>
+                    <div id="formStatus" style="margin-top: 15px; text-align: center;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sumeet D Biradar. All rights reserved.</p>
+            <p class="footer-tagline">Automating the World, One Pipeline at a Time</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
