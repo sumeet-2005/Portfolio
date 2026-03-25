@@ -67,6 +67,21 @@ body {
     justify-content: center;
 }
 
+/* Clickable Logo Styles */
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.logo a:hover {
+    transform: scale(1.05);
+}
+
+.logo a:active {
+    transform: scale(0.95);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
